@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>math tutorial</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0 , user-scalable=yes">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<style >
+		 #container{
+		 	width: 1050px;
+		 	/* height: 100px; */
+		 /*	border: 1px solid grey; */
+		 	margin: 0px auto;
+		 }
+
+		 h1{
+		 	color: #861BBF;
+		 	font-size: 50px;
+		 	font-weight: 100;
+		 }
+
+		 #search-box{
+		 	float: right;
+		 	background:linear-gradient(#E4F2B9,#B7E953);
+		 	width: 420px;
+		 	height: 50px;
+		 	padding: 20px 20px 0 20px;
+		 	margin-top: 20px;
+   		
+		 }
+
+		 #brand{
+		 	float: left;
+		 }
+
+		 #header{
+		 	height: 100px;
+		 	padding: 10px 0;
+		 }
+
+		 .text{
+		 	float: left;
+		 	color: #E36A0C;
+		 	padding: 5px;
+		 	width: 200px;
+		 	font-size: 15px;
+		 }
+
+		 .submit{
+		 	float: right;
+		 	padding: 5px;
+		 	font-weight: bold;
+		 	color: white;
+		 	background:#A751D6;
+		 	font-size: 15px;
+		 }
+
+		 .clear{
+		 	clear: both;
+		 }
+          
+         #menu{
+         	height: 70px;
+         	background:linear-gradient(#F8F594,#D5D533);
+         	padding: 7px 0;
+         }  
+		 ul{
+		 	list-style-type: none;
+		 }
+
+		 #menu ul li{
+		 	float: left;
+		 	padding: 0 30px;
+		 	height: 30px;
+		 	border-right:1px solid #5d12e7;
+
+		 }
+
+		 #menu ul li:last-child{
+		 	border-right: none;
+		 }
+
+		 #menu ul li a{
+		 	text-decoration: none;
+		 	text-transform: uppercase;
+		 	font-size: 17px;
+		 	color: #5d12e7;
+		 	line-height: 30px;
+		 }
+
+		  #menu ul li a:hover,    #menu ul li a.active{
+		 	font-size: 20px;
+		 	font-weight: bold;
+		 	color:#B314DB;
+		 }
+
+		 #introduction{
+		 	background: linear-gradient(#E5F2BB,#B7E952);
+		 	padding: 30px;
+		 	margin: 16px 0;
+		 }
+
+		 #introduction h3{
+		 	font-size: 30px;
+		 	font-weight: normal;
+		 	color: #316901;
+		 	text-decoration: none;
+		 }
+
+		 #introduction p{
+		 	font-size: 20px;
+		 	color: #628F19;
+		 	text-align: justify;
+		 	text-decoration: none;
+		 }
+
+		 .sidebar{
+		 	width: 450px;
+		 	height: 410px;
+		 	border: 1px solid #BAF46F;
+		 	border-radius: 20px;
+		 	padding: 10px 30px;
+		 }
+         
+         .sidebar h3{
+             color: #B314DB;
+             font-size: 30px; 
+         }
+         
+         .sidebar ul li a{
+         	text-decoration: none;
+         	font-size: 20px;
+         	color: #5d12e7;
+         }
+         
+         .sidebar ul li a:hover , .sidebar ul li a.active{
+         	  text-decoration: none;
+         	 color: #B314DB;
+         	 font-size:23px;
+         	 font-weight: bold;
+         }
+         
+          #sidebar ul{
+		          	padding-top: 8px;
+		         }
+
+         #leftsidebar{
+	       	 	float: left;
+		            }
+         
+         #leftsidebar ul li{
+              padding-bottom: 10px;
+              
+         }
+        
+         #leftsidebar ul li a i{
+         	color: red;
+         	font-size: 20px;
+         	padding-right: 6px;
+         }
+
+		       #rightsidebar{
+		         	float: right;
+		        }
+
+		       #rightsidebar ul li a i{
+         	color: red;
+         	font-size: 20px;
+         	padding-right: 6px;
+         }
+         
+          #rightsidebar ul li{
+          	padding-bottom: 20px;
+
+          }   
+
+          .footer{
+          	height: 60px;
+          	background: linear-gradient(#F6F390,#D5D533);
+          	padding: 10px 30px;
+          	margin-top: 15px;
+          }
+          .footer p{
+          	text-align: center;
+          }
+	</style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+    	       <div id="brand">
+    	            <h1>Java the Fun Way.</h1>
+    	       </div>
+    	       <div id="search-box">
+    	 	        <form>
+    			        <input type="text" class="text">
+    			        <!-- <i class='fas fa-search' style='font-size:20px;color:red'></i>  -->  
+    		         	<input type="submit" value="Search a topic" class="submit">
+    	        	</form>
+            	</div>
+            	<div class="clear">
+            	</div>
+    	</div>	
+
+    	<div id="menu">
+    		<ul>
+    			<li><a href="#" class="active">HOME</li>
+    			<li><a href="#">ONLNE TUTORIALS</li>	
+    			<li><a href="#">SET A PRIVATE TUTOR</li>	
+    			<li><a href="#">SIGN UP</li>
+    			<li><a href="#">CONTACT US</li>	
+    		</ul>    		
+    	</div>
+    	<div id="introduction">
+    		<h3>Do you need help with Java?</h3>
+    		<p> Our website uses an interactive methadology of teaching Java with latest web technologies.Your learning with us is guaranteed to be intuitive and fun.You will have fun while learning.This is the secret of our outstanding result.Check reviews from our students. </p>
+    	</div>
+    	<div id="leftsidebar" class="sidebar">
+    		<h3>Why us?</h3>
+    		<ul >
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 1 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 2 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 3 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 4 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 5 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 6 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 7 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 8 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 9 Free Lesson.</a></li>
+    	     <li><a href="#"><i class='far fa-arrow-alt-circle-right'></i>Year 10 Free Lesson.</a></li>
+    		</ul>
+    	</div>
+    	<div id="rightsidebar" class="sidebar">
+    		<h3>Go to:</h3>
+    		<ul >
+    			<li><a href="#"><i class="fas fa-check"></i>Our teachers are available at any time.</a></li>
+    			<li><a href="#"><i class="fas fa-check"></i> Available on Laptops.Phones and Tablets.</a></li>
+    			<li><a href="#"><i class="fas fa-check"></i>30 day Money Back Guarantee.</a></li>
+    			<li><a href="#"><i class="fas fa-check"></i>Interactive games for an enjoyable learning experience.</a></li>
+    			<li><a href="#"><i class="fas fa-check"></i>Learn at your own Place.</a></li>
+    			<li><a href="#"><i class="fas fa-check"></i>Complete curriculum.</a></li>
+    		</ul>
+    	</div>
+    	<div class="clear">
+    	</div>
+    	<footer class="footer">
+    		  <div>
+    		  	  <p>Jayant Parteti.  Copyright &copy;2019</p>
+    		  </div>
+    	</footer> 
+    </div>	
+</body>
+</html>
